@@ -17,7 +17,11 @@ public class Principal {
             while (true) {
                 try {
                     // Fluxo principal
+                    System.out.println("\n===============================================");
+                    System.out.println("           🌍 CONVERSOR DE MOEDAS 🌎          ");
+                    System.out.println("===============================================");
                     int opcaoBase = menu.exibirMenu("SELECIONE A MOEDA BASE: ");
+
                     if (opcaoBase == 7) break; // para sair
 
                     String moedaBase = menu.getCodigoMoeda(opcaoBase);

@@ -17,9 +17,10 @@ public class MenuMoeda {
             try {
                 System.out.println("\n" + mensagem);
                 for (int i = 0; i < CODIGOS.length; i++) {
-                    System.out.printf("(%d) %s (%s)\n", i + 1, NOMES[i], CODIGOS[i]);
+                    System.out.printf("  (%d) %-18s (%s)\n", i + 1, NOMES[i], CODIGOS[i]);
                 }
-                System.out.printf("(%d) Sair\n", CODIGOS.length + 1);
+                System.out.printf("  (%d) Sair\n", CODIGOS.length + 1);
+                System.out.print("👉 Sua escolha: ");
 
                 int opcao = scanner.nextInt();
                 scanner.nextLine();
@@ -40,7 +41,7 @@ public class MenuMoeda {
     public double lerValor() {
         while (true) {
             try {
-                System.out.print("\nDigite o valor a converter: ");
+                System.out.print("\n\uD83D\uDCB0 Digite o valor que você deseja converter: ");
                 double valor = scanner.nextDouble();
                 scanner.nextLine();
                 if (valor < 0) {
@@ -49,7 +50,7 @@ public class MenuMoeda {
                 }
                 return valor;
             } catch (Exception e) {
-                System.out.println("⚠️ Entrada inválida. Digite apenas números (use ponto para decimais).");
+                System.out.println("⚠️ Entrada inválida. Digite apenas números (use vírgula para decimais).");
                 scanner.nextLine();
             }
         }
