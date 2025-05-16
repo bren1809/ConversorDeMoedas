@@ -18,7 +18,7 @@ public class Conversor {
 
     private void validarMoeda(String codigoMoeda) {
         if (!taxas.containsKey(codigoMoeda)) {
-            throw new IllegalArgumentException("Moeda não suportadas: " + codigoMoeda);
+            throw new IllegalArgumentException("Moeda não suportada: " + codigoMoeda);
         }
     }
 }

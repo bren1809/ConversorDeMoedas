@@ -17,8 +17,8 @@ public class MoedaServico {
     }
 
     public double converterMoeda(double valor, String origem, String destino, Map<String, Double> taxas) {
-        if (!taxas.containsKey(origem) | !taxas.containsKey(destino)) {
-            throw new IllegalArgumentException("Código de moeda inválido.");
+        if (!taxas.containsKey(origem) || !taxas.containsKey(destino)) {
+            throw new IllegalArgumentException("Código de moeda inválido: " + origem + "ou" + destino);
         }
 
         double taxaOrigem = taxas.get(origem);
