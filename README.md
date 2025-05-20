@@ -54,7 +54,7 @@ Pronto, o programa será executado com sucesso!
 ```properties
 API_KEY=SUA_CHAVE_GERADA_AQUI
 ```
-* ✨ Dica: Se estiver no IntelliJ, clique com o botão direito na pasta `src > New > File` e nomeie como `config.properties`.
+* ✨ Dica: Se estiver no IntelliJ, clique com o botão direito na pasta `ConversorDeMoedas > New > File` e nomeie como `config.properties`.
 
 ___
 
