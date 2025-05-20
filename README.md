@@ -20,14 +20,19 @@ _"Porque dólar não cai sozinho... você converte!"_ 💸😆
 git clone https://github.com/bren1809/ConversorDeMoedas.git
 ```
 
-#### 2️⃣ Crie seu config.properties:
+#### 2️⃣ Acesse a pasta no terminal
+```bash
+cd ConversorDeMoedas
+```
+
+#### 3️⃣ (Lembre-se) Crie seu config.properties:
 * Dentro da pasta do projeto, crie um arquivo `config.properties` e coloque sua chave:
 ```properties
-API.KEY=SUA_CHAVE_GERADA_AQUI
+API_KEY=SUA_CHAVE_GERADA_AQUI
 ```
 _(Esta chave é generada no site da ExchangeRate e não deve ser compartilhada a ninguém!)_
 
-#### 3️⃣ Execute o programa:
+#### 4️⃣ Execute o programa:
 ```bash
 java -jar ConversorDeMoedas.jar
 ```
@@ -47,7 +52,7 @@ Pronto, o programa será executado com sucesso!
 #### 2️⃣ Crie o `config.properties`
 * Na pasta **raiz do projeto**, crie o arquivo:
 ```properties
-API.KEY=SUA_CHAVE_GERADA_AQUI
+API_KEY=SUA_CHAVE_GERADA_AQUI
 ```
 * ✨ Dica: Se estiver no IntelliJ, clique com o botão direito na pasta `src > New > File` e nomeie como `config.properties`.
 
