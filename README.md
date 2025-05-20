@@ -56,6 +56,10 @@ API_KEY=SUA_CHAVE_GERADA_AQUI
 ```
 * ✨ Dica: Se estiver no IntelliJ, clique com o botão direito na pasta `ConversorDeMoedas > New > File` e nomeie como `config.properties`.
 
+#### 3️⃣ Execute o Programa
+* Localize a classe `Principal.java`.
+* Clique no **botão "Run"** (▶️) ou:
+* **IntelliJ/Eclipse:** Botão direito na classe > `Run 'Main'`.
 ___
 
 ### 🔧 Funcionalidades
