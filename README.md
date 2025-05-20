@@ -1,4 +1,6 @@
 # 💰 Conversor de Moedas - Seu Câmbio na Mão!
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)  
+![image](https://github.com/user-attachments/assets/649edac2-cfa3-4990-9c8f-22d37a42c8be)
 
 Projeto de um conversor de moedas simples, porém poderoso!  
 _"Porque dólar não cai sozinho... você converte!"_ 💸😆
@@ -31,6 +33,8 @@ java -jar ConversorDeMoedas.jar
 ```
 Pronto, o programa será executado com sucesso!
 
+---
+
 ### Opção 2
 
 #### 1️⃣ Importe o Projeto
@@ -58,3 +62,15 @@ ___
 ---
 
 ### 📸 Preview
+![Foto do programa](https://github.com/user-attachments/assets/f5101c32-6447-4a34-9dab-6a48b616230b)
+
+---
+
+### 🤔 Por Que Fiz Isso?
+* Pra treinar Java, consumo de API e segurança básica!
+* Desafio da Alura no programa ONE (Oracle Next Education)
+
+---
+
+### 📜 Licença
+**MIT** © [Bren1809](https://github.com/bren1809) - _"Use, mas se ficar rico, me paga um café!"_ ☕
