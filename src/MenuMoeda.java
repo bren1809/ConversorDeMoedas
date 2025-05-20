@@ -20,19 +20,19 @@ public class MenuMoeda {
                     System.out.printf("  (%d) %-18s (%s)\n", i + 1, NOMES[i], CODIGOS[i]);
                 }
                 System.out.printf("  (%d) Sair\n", CODIGOS.length + 1);
-                System.out.print("👉 Sua escolha: ");
+                System.out.print("Sua escolha: ");
 
                 int opcao = scanner.nextInt();
                 scanner.nextLine();
 
                 if (opcao < 1 || opcao > CODIGOS.length + 1) {
-                    System.out.println("⚠️ Opção inválida. Tente novamente.");
+                    System.out.println("⚠ Opção inválida. Tente novamente.");
                     continue;
                 }
 
                 return opcao;
             } catch (Exception e) {
-                System.out.println("⚠️ Entrada inválida. Digite apenas números.");
+                System.out.println("⚠ Entrada inválida. Digite apenas números.");
                 scanner.nextLine();
             }
         }
@@ -45,12 +45,12 @@ public class MenuMoeda {
                 double valor = scanner.nextDouble();
                 scanner.nextLine();
                 if (valor < 0) {
-                    System.out.println("⚠️ Digite um valor positivo.");
+                    System.out.println("⚠ Digite um valor positivo.");
                     continue;
                 }
                 return valor;
             } catch (Exception e) {
-                System.out.println("⚠️ Entrada inválida. Digite apenas números (use vírgula para decimais).");
+                System.out.println("⚠ Entrada inválida. Digite apenas números (use vírgula para decimais).");
                 scanner.nextLine();
             }
         }
