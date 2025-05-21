@@ -30,7 +30,7 @@ cd ConversorDeMoedas
 ```properties
 API_KEY=SUA_CHAVE_GERADA_AQUI
 ```
-_(Esta chave é generada no site da ExchangeRate e não deve ser compartilhada a ninguém!)_
+_(Esta chave é gerada no site da ExchangeRate e não deve ser compartilhada a ninguém!)_
 
 #### 4️⃣ Execute o programa:
 ```bash
@@ -64,7 +64,6 @@ ___
 
 ### 🔧 Funcionalidades
 ✅ Conversão em tempo real (USD, EUR, BRL, BTC e mais!)<br>
-✅ Histórico de cotações (porque o passado importa!)<br>
 ✅ Configuração segura (sem expor sua API key no código!)<br>
 ✅ Interface intuitiva (até seu tio sabe usar!)<br>
 
